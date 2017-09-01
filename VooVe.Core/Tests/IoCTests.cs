@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using NUnit.Framework;
-using VooVe.Core.SystemExtentions;
+using VooVe.Core.Common.SystemExtentions;
 
 namespace VooVe.Core.Tests
 {

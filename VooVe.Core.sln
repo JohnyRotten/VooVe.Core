@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VooVe.Core", "VooVe.Core\VooVe.Core.csproj", "{51BBF2D7-C20A-4DF5-B9C4-963B04609E68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VooVe.Core.IoC", "VooVe.Core\VooVe.Core.IoC.csproj", "{51BBF2D7-C20A-4DF5-B9C4-963B04609E68}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E1CD323-960B-4D1B-B02E-83541F727BB7} = {2E1CD323-960B-4D1B-B02E-83541F727BB7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VooVe.Core.Common", "VooVe.Core.Common\VooVe.Core.Common.csproj", "{2E1CD323-960B-4D1B-B02E-83541F727BB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +20,15 @@ Global
 		{51BBF2D7-C20A-4DF5-B9C4-963B04609E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51BBF2D7-C20A-4DF5-B9C4-963B04609E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51BBF2D7-C20A-4DF5-B9C4-963B04609E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1CD323-960B-4D1B-B02E-83541F727BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1CD323-960B-4D1B-B02E-83541F727BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1CD323-960B-4D1B-B02E-83541F727BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1CD323-960B-4D1B-B02E-83541F727BB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19322B4D-19D8-4868-B35C-E1ACA4A696B0}
 	EndGlobalSection
 EndGlobal

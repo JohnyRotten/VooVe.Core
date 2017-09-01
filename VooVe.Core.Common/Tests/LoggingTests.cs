@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using VooVe.Core.Services.Logging;
-using VooVe.Core.SystemExtentions;
+using VooVe.Core.Common.Services.Logging;
+using VooVe.Core.Common.SystemExtentions;
 
-namespace VooVe.Core.Tests
+namespace VooVe.Core.Common.Tests
 {
     [TestFixture]
     public class LoggingTests
@@ -52,7 +52,7 @@ namespace VooVe.Core.Tests
 
         private Tuple<IEnumerable<string>, IEnumerable<string>> SplitBy(LoggingVerbosity verbosity)
         {
-            var included = _dictionary.Where(p => p.Key <= verbosity).SelectMany(p => p.Value);
+            var included = _dictionary.Where(p => p.Key <= verbosity).SelectMany(p => p.Value).ToList();
             var excluded = _dictionary.SelectMany(p => p.Value).Except(included);
             return new Tuple<IEnumerable<string>, IEnumerable<string>>(included, excluded);
         }

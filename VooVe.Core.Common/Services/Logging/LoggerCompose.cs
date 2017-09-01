@@ -1,6 +1,6 @@
-﻿using VooVe.Core.SystemExtentions;
+﻿using VooVe.Core.Common.SystemExtentions;
 
-namespace VooVe.Core.Services.Logging
+namespace VooVe.Core.Common.Services.Logging
 {
     public class LoggerCompose : Logger
     {

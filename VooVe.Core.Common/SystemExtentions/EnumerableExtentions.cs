@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace VooVe.Core.SystemExtentions
+namespace VooVe.Core.Common.SystemExtentions
 {
     public static class EnumerableExtentions
     {

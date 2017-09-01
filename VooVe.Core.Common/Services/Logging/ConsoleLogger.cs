@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VooVe.Core.Services.Logging
+namespace VooVe.Core.Common.Services.Logging
 {
     public class ConsoleLogger : Logger
     {

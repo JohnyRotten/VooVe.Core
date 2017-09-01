@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace VooVe.Core.Services.Logging
+namespace VooVe.Core.Common.Services.Logging
 {
     public class FileLogger : Logger
     {
