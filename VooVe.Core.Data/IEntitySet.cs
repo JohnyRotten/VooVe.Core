@@ -5,9 +5,9 @@ namespace VooVe.Core.Data
 {
     public interface IEntitySet<TEntity>
     {
-        TEntity Get(Predicate<TEntity> condition);
+        IEnumerable<TEntity> Get(Predicate<TEntity> condition);
+        void Add(TEntity entity);
         void Update(TEntity entity);
         void Remove(TEntity entity);
-        IEnumerable<TEntity> GetAll();
     }
 }
