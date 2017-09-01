@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VooVe.Core.IoC", "VooVe.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VooVe.Core.Common", "VooVe.Core.Common\VooVe.Core.Common.csproj", "{2E1CD323-960B-4D1B-B02E-83541F727BB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VooVe.Core.Data", "VooVe.Core.Data\VooVe.Core.Data.csproj", "{CA1754D4-79E2-44E2-A477-6612ED3349BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{2E1CD323-960B-4D1B-B02E-83541F727BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E1CD323-960B-4D1B-B02E-83541F727BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E1CD323-960B-4D1B-B02E-83541F727BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1754D4-79E2-44E2-A477-6612ED3349BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1754D4-79E2-44E2-A477-6612ED3349BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1754D4-79E2-44E2-A477-6612ED3349BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1754D4-79E2-44E2-A477-6612ED3349BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
