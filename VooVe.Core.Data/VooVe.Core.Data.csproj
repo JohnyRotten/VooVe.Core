@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityProviderProxy.cs" />
+    <Compile Include="EntitySetProxy.cs" />
     <Compile Include="IEntityProvider.cs" />
     <Compile Include="IEntitySet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
